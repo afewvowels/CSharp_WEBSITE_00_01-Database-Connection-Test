@@ -1,0 +1,35 @@
+﻿@page
+@model BlogProject.Pages.CreateModel
+@{
+    ViewData["Title"] = "Create";
+}
+
+  <section>
+    <form method="post" runat="server" id="main-form">
+      <fieldset>
+        <legend>Blog Post Creator</legend>
+        <div id="inputsWrapper">
+          <div class="inputWrapper">
+            <Label runat="server" visible="true" for="tbPostTitle" id="lblPostTitle" class="formLbl">Post Title</Label>
+            <input type="text" runat="server" visible="true" id="tbPostTitle" class="formTb">
+          </div>
+          <div class="inputWrapper">
+            <Label runat="server" for="tbPostContent" id="lblPostContent" class="formLbl">Post Title</Label>
+            <textarea runat="server" id="tbPostContent" class="formTb" ></textarea>
+          </div>
+          <div class="inputWrapper">
+            <Label runat="server" for="tbImagePath" id="lblImagePath" class="formLbl">Image Path</Label>
+            <input type="text" runat="server" id="tbImagePath" class="formTb">
+          </div>
+          <div class="inputWrapper">
+            <Label runat="server" text="Post Title" id="lblImageAlt" class="formLbl">Image Alt</Label>
+            <input type="text" runat="server" id="tbImageAlt" class="formTb">
+          </div>
+        </div>
+        <div id="buttonsWrapper">
+          <Button runat="server" title="Submit" id="btnSubmit" class="formBtn">Submit</Button>
+          <Button runat="server" title="Reset" id="btnReset" class="formBtn">Reset</Button>
+        </div>
+      </fieldset>
+    </form>
+  </section>

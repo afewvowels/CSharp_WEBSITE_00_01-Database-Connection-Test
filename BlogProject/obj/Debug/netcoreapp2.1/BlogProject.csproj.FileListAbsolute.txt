@@ -30,3 +30,4 @@ C:\Users\Keith\Documents\GitHub\CSharp_WEBSITE_00_01-Database-Connection-Test\Bl
 C:\Users\Keith\Documents\GitHub\CSharp_WEBSITE_00_01-Database-Connection-Test\BlogProject\obj\Debug\netcoreapp2.1\BlogProject.dll
 C:\Users\Keith\Documents\GitHub\CSharp_WEBSITE_00_01-Database-Connection-Test\BlogProject\obj\Debug\netcoreapp2.1\BlogProject.pdb
 C:\Users\Keith\Documents\GitHub\CSharp_WEBSITE_00_01-Database-Connection-Test\BlogProject\obj\Debug\netcoreapp2.1\BlogProject.csproj.CopyComplete
+C:\Users\Keith\Documents\GitHub\CSharp_WEBSITE_00_01-Database-Connection-Test\BlogProject\obj\Debug\netcoreapp2.1\Razor\Pages\Create.g.cshtml.cs
